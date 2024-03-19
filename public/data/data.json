@@ -1,0 +1,490 @@
+{
+    "usuarios":[
+      {
+          "id": 1,
+          "name":"El Mariana",
+          "username": "@mariana",
+          "email": "2uRqH@example.com",
+          "back":"https://pbs.twimg.com/profile_banners/1303576011716595712/1629828165/600x200",
+          "avatar": "https://imgs.search.brave.com/R_i-AB684ktpwT6X8OS95OyFDzTaJqkf9JYEV006SHI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9sYWJp/b2RlLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMi8wOS9F/bC1NYXJpYW5hLXN0/cmVhbWVyLmpwZw",
+          "bio":"|| Master en Cagarla | Partner de Twitch | Creador de Contenido || 📩 contacto.elmariana@gmail.com || @LuisHarrygv",
+          "verified":true,
+          "followers":"1.2k",
+          "following":"2,2 M",
+          "tweets": "1.2k",
+          "location":"Monterrey, Nuevo Leon",
+          "joined":"29 Septiembre 2020"
+      },
+      {
+          "id": 2,
+          "name":"Darieth Jasso",
+          "username": "@jasso2",
+          "email": "2uRqH@example.com",
+          "back":null,
+          "avatar": "https://scontent.ftpq2-1.fna.fbcdn.net/v/t39.30808-6/414692329_1684501038710323_301892290143777707_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEMOP-6eD5Kcvh7ZTiVRKs2SKMlXnQWyc1IoyVedBbJzVR8s5aeYB25hdXpAAiLLxcjSRS8uzrxXIywbiX3RlrN&_nc_ohc=Cq-4kj-VCCoAX9DfYvi&_nc_ht=scontent.ftpq2-1.fna&oh=00_AfDM7SSCcaipT2lYAT44bVEH4k1n-lz1bxs197GvKwRXdQ&oe=65F4CEAB",
+          "bio":"Estudiante de Programacion proximo a egresar y practicante en Wallavi",
+          "verified":true,
+          "followers":"500",
+          "following":"900",
+          "tweets": "2",
+          "location":"Tepic,Nayarit",
+          "joined":"23 Septiembre 2019"
+      },
+      {
+          "id": 3,
+          "name":"Jose Vega",
+          "username": "@jose12",
+          "email": "2uRqH@example.com",
+          "back":null,
+          "avatar": "https://i.pravatar.cc/150?u=2",
+          "bio":"No se ni como me llamo master lo siento",
+          "verified":false,
+          "followers":"1.4k",
+          "following":"1.4k",
+          "tweets": "10",
+          "location":"Monterrey, Nuevo Leon",
+          "joined":"29 Septiembre 2020"
+  
+      },
+      {
+          "id": 4,
+          "name":"Adrián Marcelo",
+          "username": "@adrianmarcelo",
+          "email": "2uRqH@example.com",
+          "back":null,
+          "avatar": "https://imgs.search.brave.com/W0K88YPggCc-SoUcgbdmAUvDqwNoLimq2SbYg-Mhjn0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4y/LmV4Y2Vsc2lvci5j/b20ubXgvbWVkaWEv/c3R5bGVzL2ltYWdl/ODAweDYwMC9wdWJs/aWMvcGljdHVyZXMv/MjAyMy8xMS8yNi8z/MDM5NzA0LmpwZw",
+          "bio":"Creador de contenido Norteñense, con facilidad de caerle mal a toda la gente",
+          "verified":true,
+          "followers":"1k",
+          "following":"5.5 M",
+          "tweets": "1.2k",
+          "location":"Monterrey, Nuevo Leon",
+          "joined":"20 de Mayo del 2013"
+      },
+      {
+        "id": 5,
+        "name": "Walla Vargas",
+        "username": "@vg18",
+        "email": "2uRqH@example.com",
+        "back":null,
+        "avatar": "https://i.pravatar.cc/150?u=4",
+        "bio": "Estudiante de Programacion próximo a egresar y practicante en Wallavi. Amante de la tecnología y los videojuegos.",
+        "verified": false,
+        "followers": "2.5k",
+        "following": "1.7k",
+        "tweets": "3.2k",
+        "location": "Guadalajara, Jalisco",
+        "joined": "15 Agosto 2019"
+      },
+      {
+        "id": 6,
+        "name": "Chicharito",
+        "username": "@chicha7",
+        "email": "2uRqH@example.com",
+        "back":null,
+        "avatar": "https://imgs.search.brave.com/pJaM89eRV3Yf5Evj_aWkNYxJJstnbhitFC1Mp8DtsBA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy85/Lzk1L0hlcnRoYV9C/U0NfdnMuX1dlc3Rf/SGFtX1VuaXRlZF8y/MDE5MDczMV8oMTM5/KS5qcGc",
+        "bio": "Jugador de fútbol profesional. Actualmente en el equipo LA Galaxy. Amante de la música y la buena comida.",
+        "verified": true,
+        "followers": "4.3M",
+        "following": "210",
+        "tweets": "8.6k",
+        "location": "Los Angeles, California",
+        "joined": "20 Julio 2010"
+      },
+      {
+        "id": 7,
+        "name": "Wallavi",
+        "username": "@wallavi",
+        "email": "2uRqH@example.com",
+        "back":null,
+        "avatar": "https://scontent.ftpq2-1.fna.fbcdn.net/v/t39.30808-6/336521147_6077779318968342_4868855074705349693_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHtXUgKk8dsx7bxnqaY7jOVv0B18qnrT8m_QHXyqetPyXu2EMhBarKSPH_7X4Dpdnd_YZEDWLCtftBLDvd_VmP3&_nc_ohc=r_xcB2p6PrUAX-GYs5O&_nc_ht=scontent.ftpq2-1.fna&oh=00_AfCd9kwNLVDPhyknqIS13Mg0McxD_ceomBBewdxr-g1NSA&oe=65F4E2D6",
+        "bio": "Wallavi es una plataforma de desarrollo de software que busca innovar y mejorar la vida de las personas a través de la tecnología.",
+        "verified": true,
+        "followers": "14.6k",
+        "following": "312",
+        "tweets": "3.7k",
+        "location": "Ciudad de México, México",
+        "joined": "10 Mayo 2015"
+      },
+      {
+        "id": 8,
+        "name": "Miguel Angel",
+        "username": "@midudev",
+        "email": "2uRqH@example.com",
+        "back":null,
+        "avatar": "https://imgs.search.brave.com/aySVkSSs-prCJ-ht4CKaTcPwqD9iDMeyXVLKJFq_SM0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jYW1v/LmdpdGh1YnVzZXJj/b250ZW50LmNvbS9i/ZDVhNTBhOWYyYmZl/MGE3YWZkMDg5ZThl/MDhlYTM2YmExY2Uz/ZTUzYmYxYmQ5OGU3/NTRjNGQyNjY1MTYx/ZWUxLzY4NzQ3NDcw/NzMzYTJmMmY3OTc0/MzMyZTY3Njc3MDY4/NzQyZTYzNmY2ZDJm/NjEyZjQxNDE1NDU4/NDE0YTdhNzU3OTZh/NDM3NDM4NGIzMDUx/NDQzODc4NWY1MDcy/NTQ0MjMxMzE0YzU0/NmM3NjcwNTgzMjY5/NTY1NzZiMzQ2NTQz/NTM1MTNkNzMzMTM3/MzYyZDYzMmQ2YjJk/NjMzMDc4NjY2NjY2/NjY2NjY2NjY2NjJk/NmU2ZjJkNzI2YTJk/NmQ2Zg",
+        "bio": "Desarrollador web y creador de contenido. Enseñando desarrollo web en YouTube y Twitch. Apasionado por la enseñanza y el aprendizaje.",
+        "verified": true,
+        "followers": "256k",
+        "following": "187",
+        "tweets": "18.9k",
+        "location": "Madrid, España",
+        "joined": "5 Abril 2016"
+      },
+      {
+        "id": 9,
+        "name": "Bad Bunny",
+        "username": "@badbunny",
+        "email": "2uRqH@example.com",
+        "back":null,
+        "avatar": "https://imgs.search.brave.com/KyERIEJCcPNsS-osic2BUMWCHP8deE5AY1rgb57DwQo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90aGVm/YWRlci1yZXMuY2xv/dWRpbmFyeS5jb20v/cHJpdmF0ZV9pbWFn/ZXMvd183NjAsY19s/aW1pdCxmX2F1dG8s/cV9hdXRvOmJlc3Qv/R2V0dHlJbWFnZXMt/MTQyOTI3NzU5OF9w/YWplemkvYmFkLWJ1/bm55LmpwZw",
+        "bio": "Cantante y compositor puertorriqueño de género urbano y reguetón. Ganador de múltiples premios Grammy.",
+        "verified": true,
+        "followers": "35.2M",
+        "following": "120",
+        "tweets": "10.4k",
+        "location": "San Juan, Puerto Rico",
+        "joined": "25 Febrero 2017"
+      },
+      {
+        "id": 10,
+        "name": "Nathan Peterson",
+        "username": "@nathan",
+        "email": "2uRqH@example.com",
+        "back":null,
+        "avatar": "https://i.pravatar.cc/150?u=2",
+        "bio": "Diseñador gráfico y desarrollador front-end. Apasionado por la creación de interfaces de usuario atractivas y funcionales.",
+        "verified": false,
+        "followers": "43.6k",
+        "following": "1.4k",
+        "tweets": "7.8k",
+        "location": "Seattle, Washington",
+        "joined": "12 Octubre 2018"
+      },
+      {
+        "id": 11,
+        "name": "Juan David",
+        "username": "@XgJuanDavidgX",
+        "email": "2uRqH@example.com",
+        "back":null,
+        "avatar": "https://pbs.twimg.com/profile_images/1353041854397177856/1-D2hyO5_400x400.jpg",
+        "bio": "Desarrollador full-stack y entusiasta de la tecnología blockchain. Amante de los videojuegos y el deporte.",
+        "verified": false,
+        "followers": "6.8k",
+        "following": "87",
+        "tweets": "4.3k",
+        "location": "Bogotá, Colombia",
+        "joined": "30 Noviembre 2019"
+      },
+      {
+        "id": 12,
+        "name": "María García",
+        "username": "@mariag",
+        "email": "2uRqH@example.com",
+        "back":null,
+        "avatar": "https://i.pravatar.cc/150?u=2",
+        "bio": "Amante de la naturaleza y la fotografía. Viajera empedernida y defensora de los derechos de los animales.",
+        "verified": true,
+        "followers": "102.5k",
+        "following": "425",
+        "tweets": "5.9k",
+        "location": "Barcelona, España",
+        "joined": "8 Marzo 2017"
+      },
+      {
+        "id": 13,
+        "name": "David Smith",
+        "username": "@david_smith",
+        "email": "2uRqH@example.com",
+        "back":null,
+        "avatar": "https://i.pravatar.cc/150?u=3",
+        "bio": "Ingeniero de software especializado en inteligencia artificial y machine learning. Contribuyendo a construir un futuro más inteligente.",
+        "verified": false,
+        "followers": "189.7k",
+        "following": "73",
+        "tweets": "12.6k",
+        "location": "San Francisco, California",
+        "joined": "18 Junio 2016"
+      },
+      {
+        "id": 14,
+        "name": "Emily Johnson",
+        "username": "@emily_j",
+        "email": "2uRqH@example.com",
+        "back":null,
+        "avatar": "https://i.pravatar.cc/150?u=4",
+        "bio": "Diseñadora de moda y blogger de estilo de vida. Compartiendo consejos de moda y belleza para mujeres modernas.",
+        "verified": true,
+        "followers": "76.3k",
+        "following": "178",
+        "tweets": "9.2k",
+        "location": "Paris, Francia",
+        "joined": "6 Septiembre 2018"
+      },
+      {
+        "id": 15,
+        "name": "Michael Williams",
+        "username": "@mike_w",
+        "email": "2uRqH@example.com",
+        "back":null,
+        "avatar": "https://i.pravatar.cc/150?u=5",
+        "bio": "Consultor de negocios y emprendedor serial. Ayudando a empresas a alcanzar su máximo potencial a través de estrategias innovadoras.",
+        "verified": false,
+        "followers": "23.8k",
+        "following": "342",
+        "tweets": "3.5k",
+        "location": "New York City, New York",
+        "joined": "22 Abril 2019"
+      }
+    ],
+    
+      "tweets": [
+        {
+          "userId":1,
+          "timestamp": "15 mar.",
+          "text": "Fuera de broma si sería buen modelo we JAJAJAJA",
+          "image": "https://pbs.twimg.com/media/GIcpLJzbIAApgg_?format=jpg&name=medium",
+          "comments": 245,
+          "retweets": 174,
+          "likes": 434,
+          "statistics": "546 mil",
+          "categoria": "Trending"
+        },
+        {
+          "userId":2,
+          "timestamp": "23 mar.",
+          "text": "¡Qué lindo día! ☀️",
+          "image": "https://scontent.ftpq2-1.fna.fbcdn.net/v/t39.30808-6/430824870_1726356031191490_3457025754018609928_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFp1ekzejlGGTll33zgiMF-gDFKkQLAE7eAMUqRAsATt2TGjBC8sZvIIDbNq_SfDc1bQo-h-wXg6lyRerRP8fsM&_nc_ohc=YrQDfgrpyjEAX_XV5pY&_nc_oc=AQl-_XHkgRkCbRHYxPU-Ub1_GwDn6rtWwWu_2r0ZbyAPHnDyxNNJAVKUcunh9WPVvCc&_nc_ht=scontent.ftpq2-1.fna&oh=00_AfD8qAAhZwpHHut3Xc2lSGG2DNo5XIADRfWmyrUr7PE4xQ&oe=65F4CAB2",
+          "comments": 5,
+          "retweets": 10,
+          "likes": 25,
+          "statistics": "50 mil",
+          "categoria": "Trending"
+          
+        },
+        {
+          "userId":3,
+          "timestamp": "2h",
+          "text": "¡Nuevo artículo en mi blog! 📝 https://example.com",
+          "image": null,
+          "comments": 12,
+          "retweets": 8,
+          "likes": 35,
+          "statistics": "200 mil",
+          "categoria": "Trending"
+        },
+        {
+         "userId":4,
+          "timestamp": "12 mar.",
+          "text": "Una imagen vale más que mil palabras. 📸",
+          "image": "https://pbs.twimg.com/media/EUFyUtqUYAEl_5O.jpg",
+          "comments": 8,
+          "retweets": 15,
+          "likes": 40,
+          "statistics": "100 mil",
+          "categoria": "Trending"
+        },
+        {
+          "userId":5,
+          "timestamp": "6h",
+          "text": "Feliz fin de semana a todos! 😊🎉",
+          "image": null,
+          "comments": 3,
+          "retweets": 6,
+          "likes": 20,
+          "statistics": "20 mil",
+          "categoria": "Trending"
+        },
+        {
+          "userId":6,
+          "timestamp": "9 mar.",
+          "text": "¡Qué emocionante partido de fútbol! ⚽️🔥",
+          "image": "https://media.gq.com.mx/photos/64724bff27429b28ca35ac4d/16:9/w_2560%2Cc_limit/liga-mx-final-2023-cuando-es-y-donde-ver-tigres-chivas.jpg",
+          "comments": 20,
+          "retweets": 30,
+          "likes": 50,
+          "statistics": "300 mil",
+          "categoria": "Trending"
+        },
+        {
+          "userId":7,
+          "timestamp": "4h",
+          "text": "Recordatorio: Reunión importante mañana a las 10am. 📅",
+          "image": null,
+          "comments": 2,
+          "retweets": 4,
+          "likes": 15,
+          "statistics": "30 mil",
+          "categoria": "Trending"
+        },
+        {
+          "userId":8,
+          "timestamp": "17 mar.",
+          "text": "¡Excelente día para disfrutar de un café! ☕️",
+          "image": null,
+          "comments": 7,
+          "retweets": 12,
+          "likes": 30,
+          "statistics": "400 mil",
+          "categoria": "Trending"
+        },
+        {
+          "userId":9,
+          "timestamp": "1h",
+          "text": "Nueva playlist en Spotify! 🎶🔥",
+          "image": "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO2Aq9I4-default.jpg",
+          "comments": 15,
+          "retweets": 20,
+          "likes": 45,
+          "statistics": "250 mil",
+          "categoria": "Trending"
+        },
+        {
+          "userId":1,
+          "timestamp": "15 mar.",
+          "text": "¿Alguien más está emocionado por el estreno de la nueva película? 🎬",
+          "image": "https://i.pinimg.com/736x/74/0d/d2/740dd2341e45d9025f4cd4a90327b519.jpg",
+          "comments": 18,
+          "retweets": 25,
+          "likes": 55,
+          "statistics": "150 mil",
+          "categoria": "Trending"
+        },
+        {
+          "userId":10,
+          "timestamp": "5h",
+          "text": "sjssjjsss no me lo esperaba! Qué grande! #oscars2024 🗽",
+          "image": "https://pbs.twimg.com/media/GIWTYjbXAAAA_Q0?format=jpg&name=large",
+          "comments": 13,
+          "retweets": 39,
+          "likes": 682,
+          "statistics": "462 mil",
+          "categoria": "Trending"
+        },
+        {
+          "userId":10,
+          "timestamp": "5h",
+          "text": "¡Feliz cumpleaños a mi querido amigo! 🎂🎈",
+          "image": null,
+          "comments": 10,
+          "retweets": 18,
+          "likes": 40,
+          "statistics": "2 mil",
+          "categoria": "Trending"
+        },
+        {
+         "userId":11,
+          "timestamp": "5h",
+          "text": "Ustedes tienen un personaje que sea 'Literalmente ustedes'? Yo conocí a Blade y me di cuenta que Blade es una copia de mi personalidad. Ambos somos fríos, solitarios y depresivos, incomprendidos en un mundo de fantasia en el que si somos reales o todo es una falsa mentira, probablemente los autores se basaron en mi para crearlo",
+          "image": "../twitter/JuanDavid.jpeg",
+          "comments": 10,
+          "retweets": 18,
+          "likes": 40,
+          "statistics": "2 mil",
+          "categoria": "Trending"
+        },
+        {
+          "userId":10,
+          "timestamp": "5h",
+          "text": "¡Feliz cumpleaños a mi querido amigo! 🎂🎈",
+          "image": null,
+          "comments": 10,
+          "retweets": 18,
+          "likes": 40,
+          "statistics": "2 mil",
+          "verified": false,
+          "categoria": "comida"
+        },
+        {
+          "userId":12,
+          "timestamp": "10h",
+          "text": "¡Hoy probé una nueva receta y quedó espectacular! 😋🍲",
+          "image": "https://imgs.search.brave.com/5q4a5pW0QJolvx9cdEJQk86NyUo73-qoUrUgISpGRF0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9ndWFk/YWxhamFyYS5jYy93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMC8w/NS81LUNvbWlkYXMt/dGlwaWNhcy1kZS1H/dWFkYWxhamFyYS1K/YWxpc2NvLTEwMjR4/MTAwOS5qcGc",
+          "comments": 15,
+          "retweets": 25,
+          "likes": 60,
+          "statistics": "3.5 mil",
+          "categoria": "comida"
+        },
+        {
+          "userId":13,
+          "timestamp": "3h",
+          "text": "Just finished playing the latest game release. It's mind-blowing! 🎮🔥",
+          "image": null,
+          "comments": 8,
+          "retweets": 12,
+          "likes": 30,
+          "statistics": "1.2 mil",
+          "categoria": "gaming"
+        },
+        {
+          "userId":14,
+          "timestamp": "1d",
+          "text": "Looking forward to the weekend gaming session with friends! 🕹️",
+          "image": "https://imgs.search.brave.com/EA9xkN8xTnXRRDNGGhikgwO7dVtYdoqv6oE1mAz0T5s/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzIzL2Uz/LzQwLzIzZTM0MGY0/YjcyNzgwNGMxMjM3/MWIwZGM1ZWU5NzYw/LmpwZw",
+          "comments": 20,
+          "retweets": 35,
+          "likes": 70,
+          "statistics": "4.2 mil",
+          "categoria": "gaming"
+        },
+        {
+          "userId":15,
+          "timestamp": "1h",
+          "text": "Excited to try out the new smartphone that just launched! 📱💥",
+          "image": null,
+          "comments": 12,
+          "retweets": 20,
+          "likes": 45,
+          "statistics": "2.8 mil",
+          "categoria": "tecnología"
+        },
+        {
+          "userId":8,
+          "timestamp": "6h",
+          "text": "Technology is evolving so fast! Can't wait to see what's next. 💻🚀",
+          "image": "https://imgs.search.brave.com/zsecFOFS97o-cDkfozcWtqrckp4mQ2u7PCASTPrk1aQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zMS5z/aWduaWZpY2Fkb3Mu/Y29tL2ZvdG8vdGVj/bm9sb2dpYS1lbi1s/YS1lZHVjYWNpb24u/anBnP2NsYXNzPWFy/dGljbGU",
+          "comments": 18,
+          "retweets": 30,
+          "likes": 55,
+          "statistics": "3.9 mil",
+          "categoria": "tecnología"
+        }
+      ],
+      "tendencias": [
+        {
+          "country": "México",
+          "tendencia": "#Elecciones2024",
+          "posts": 1500
+        },
+        {
+          "country": "España",
+          "tendencia": "#Covid19",
+          "posts": 2800
+        },
+        {
+          "country": "Argentina",
+          "tendencia": "#Clima",
+          "posts": 900
+        },
+        {
+          "country": "Brasil",
+          "tendencia": "#Futebol",
+          "posts": 3500
+        },
+        {
+          "country": "Estados Unidos",
+          "tendencia": "#Politics",
+          "posts": 5000
+        },
+        {
+          "country": "Reino Unido",
+          "tendencia": "#Brexit",
+          "posts": 1200
+        },
+        {
+          "country": "Francia",
+          "tendencia": "#Mode",
+          "posts": 2000
+        },
+        {
+          "country": "Alemania",
+          "tendencia": "#Fußball",
+          "posts": 3000
+        }
+      ]
+    
+    
+      
+  }
+  
