@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons/faXTwitter";
 import { faApple, faGoogle } from "@fortawesome/free-brands-svg-icons";
+import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex flex-col gap-[60px] p-8">
@@ -26,7 +27,9 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-3 w-[310px]">
             <p className=" text-[17px] font-bold pt-8">¿Ya tienes una cuenta?</p>
-            <button className="h-[40px] rounded-3xl border-1 border-gray-500 bg-transparent font-bold text-blue-400">Iniciar Sesion</button>
+            <Link href="/enter" className="flex flex-col">
+              <button className="h-[40px] rounded-3xl border-1 border-gray-500 bg-transparent font-bold text-blue-400">Iniciar Sesion</button>
+            </Link>
           </div>
         </article>
       </div>
