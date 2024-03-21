@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { useData } from "../hook/useData";
 import MenuBurger from "./menuBurger";
+import NewPost from "./NewPost";
 
 
 export default function Drawer(){
@@ -16,7 +17,18 @@ export default function Drawer(){
     const [openMenuAvatar, setOpenMenuAvatar] = useState(false);
     const pathname = usePathname();
     const {user,setUser} = useData();
+    const [isNewTweetOpen, setIsNewTweetOpen] = useState(false);
     
+    const handleIsNewTweetOpen = () => {
+        setIsNewTweetOpen(true);
+    }
+
+    const handleIsNewTweetClose = () => {
+        setIsNewTweetOpen(false);
+    }
+
+    console.log(isNewTweetOpen)
+
     const profileRegex = /^\/twitter\/\d+\/profile$/;
     useEffect(() => {
         const storedUser = localStorage.getItem('currentUser');
@@ -56,7 +68,10 @@ export default function Drawer(){
                 <NavBar1 sticky={isSticky}  />
                 <NavBar2 id={user?.id || 0} />
             </div>
-            <button className={`fixed bottom-14 right-0 w-[50px] h-[50px] bg-[#1d9bf0] rounded-full mr-4 ${isSticky ? 'opacity-40' : ''}  sm:relative sm:-bottom-10 sm:left-2 text-white lg:w-[250px]`}><FontAwesomeIcon color="white" className=" p-1 lg:hidden" icon={faFeather} /><p className="hidden lg:block font-bold py-2 text-2xl lg:left-1">Postear</p></button>
+            <button onClick={handleIsNewTweetOpen} className={` sm:hidden fixed bottom-14 right-0 w-[50px] h-[50px] bg-[#1d9bf0] rounded-full mr-4 ${isSticky ? 'opacity-40' : ''}  sm:relative sm:-bottom-10 sm:left-2 text-white lg:w-[250px]`}><FontAwesomeIcon color="white" className=" p-1 lg:hidden" icon={faFeather} /><p className="hidden lg:block font-bold py-2 text-2xl lg:left-1">Postear</p></button>
+            {
+                isNewTweetOpen ? <NewPost onClose={handleIsNewTweetClose} open={isNewTweetOpen} /> : null
+            }
             <div className={`fixed bottom-0 top-0 p-2  w-full h-[50px] ${isSticky ? 'hidden' : ''} ${profileRegex.test(pathname) ? 'hidden':''}  sm:w-[50px] sm:relative sm:mt-[180px]`}>
 
                 <Avatar src={user?.avatar} size="sm" className="sm:w-[50px] sm:h-[50px]" onClick={() => setOpenMenuAvatar(!openMenuAvatar)}  />

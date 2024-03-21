@@ -74,18 +74,18 @@ export default function MenuBurger({user,openMenuAvatar,setOpenMenuAvatar}:{user
         }
     ]
     return (
-        <div ref={menuRef} className={`bg-black fixed text-white w-[300px] h-screen border-r-1 top-0 ${!openMenuAvatar ? "hidden" : "flex z-50"} p-4` }>
+        <div ref={menuRef} className={`bg-black fixed text-white w-[300px] h-screen border-r-1 top-0 sm:h-auto sm:rounded-3xl sm:top-[750px] sm:w-auto ${!openMenuAvatar ? "hidden" : "flex z-50"} p-4` }>
             <div className="flex flex-col gap-4 w-full">
-                <div className="flex justify-between">
+                <div className="flex justify-between sm:hidden">
                     <Link href={`/enter/${id}/profile`}>
                     <Avatar className="cursor-pointer" size="md" src={avatar} /></Link>
                     <button className="text-white text-3xl rounded-full h-[40px] w-[40px] border border-gray-400">+</button>
                 </div>
-                <div>
+                <div className=" sm:hidden">
                     <Link href={`/enter/${id}/profile`}><p className="text-2xl font-bold hover:underline">{name}</p></Link>
                     <p className="text-gray-400 text-[20px]">{username}</p>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex justify-between sm:hidden">
                     <p className="text-gray-500"><span className="text-white font-bold">{followers}</span> Seguidores</p>
                     <p className="text-gray-500"><span className="text-white font-bold">{following}</span> Siguiendo</p>
                 </div>
@@ -94,11 +94,11 @@ export default function MenuBurger({user,openMenuAvatar,setOpenMenuAvatar}:{user
                         Links.map((link) => (
                             
                                 <Link 
-                                key={link.name} className="flex  text-2xl text-white  hover:bg-gray-600/20 h-[50px] items-center gap-4" href={link.url} ><FontAwesomeIcon className="w-[30px]" icon={link.icon} /><p className="font-semibold" >{link.name}</p></Link>
+                                key={link.name} className=" sm:hidden flex  text-2xl text-white  hover:bg-gray-600/20 h-[50px] items-center gap-4" href={link.url} ><FontAwesomeIcon className="w-[30px]" icon={link.icon} /><p className="font-semibold" >{link.name}</p></Link>
                             
                         ))
                     }
-                     <button className="flex text-2xl text-white hover:bg-gray-600/20 h-[50px] items-center gap-4" onClick={logout}>
+                     <button className="flex text-2xl text-white hover:bg-gray-600/20 h-[50px] items-center gap-4 sm:h-[20px]  sm:text-[13px]" onClick={logout}>
                         <FontAwesomeIcon className="w-[30px]" icon={faSignOut} />
                         <p className="font-semibold">Cerrar Sesión</p>
                     </button>

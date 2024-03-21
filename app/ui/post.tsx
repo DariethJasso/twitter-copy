@@ -19,6 +19,7 @@ export default function Post({tweet,user}:{tweet:Tweet,user:Users}) {
                             <Tooltip 
                                 className="bg-black shadow-[0_35px_60px_-15px_rgba(255,255,255,0.3)]"
                                 placement="bottom"
+                                delay={2000}
                                 content={
                                     <div className="flex flex-col gap-6 p-3 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-black w-[300px]">
                                         <div className="flex justify-between">
