@@ -4,8 +4,12 @@ import { faBookmark, faList } from "@fortawesome/free-solid-svg-icons"
 import { faUserGroup } from "@fortawesome/free-solid-svg-icons/faUserGroup"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Link from "next/link"
+type Props={
+    id:number
+}
+export function NavBar2({id}:Props) {
+    const profileRegex = /^\/enter\/\d+\/profile$/;
 
-export function NavBar2() {
     const Link2 = [
         {
             name:"Lista Fijadas",
@@ -29,7 +33,7 @@ export function NavBar2() {
         },
         {
             name:"Perfil",
-            url:"/enter/perfil",
+            url:`/enter/${id}/profile`,
             icon:faUser
         }
 

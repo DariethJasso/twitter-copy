@@ -18,7 +18,7 @@ export default function NavBar1({sticky}: {sticky: boolean}) {
         },
         {
             name: "Notificaciones",
-            url:"/tenternotification",
+            url:"/enter/notification",
             icon: faBell
         },
         {

@@ -1,13 +1,47 @@
+'use client'
+import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons/faXTwitter";
 import { faApple, faGoogle } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
+import Register from "./ui/register/register";
+import Alert from "@mui/material";
+import Login from "./ui/login/login";
+import { useRouter } from "next/navigation";
 export default function Home() {
+  const [isModalRegisterOpen, setIsModalRegisterOpen] = useState(false);
+  const [isModalLoginOpen, setIsModalLoginOpen] = useState(false);
+
+  const router = useRouter();
+
+  useEffect(() => {
+      // Verificar si hay un usuario en el almacenamiento local
+      const storedUser = localStorage.getItem('currentUser');
+      if (storedUser) {
+          // Redirigir automáticamente a la ruta '/enter/main'
+          router.replace('/enter/main');
+      }
+  }, [router]);
+  const handleModalRegisterOpen = () => {
+    setIsModalRegisterOpen(true);
+  }
+
+  const handleModalRegisterClose = () => {
+    setIsModalRegisterOpen(false);
+  }
+
+  const handleModalLoginOpen = () => {
+    setIsModalLoginOpen(true);
+  }
+
+  const handleModalLoginClose = () => {
+    setIsModalLoginOpen(false);
+  }
   return (
-    <main className="flex flex-col gap-[60px] p-8">
-      <div className="flex flex-col gap-10 items-center lg:flex-row xl:gap-[100px] xl:p-6 2xl:gap-[200px] 2xl:pl-[200px]">
-        <div className="flex items-start w-[500px] lg:w-auto">
-          <FontAwesomeIcon className="w-12 lg:w-[200px] xl:w-[400px]" icon={faXTwitter} />
+    <main className="bg-black flex flex-col gap-[60px] p-8 w-auto sm:h-screen lg:h-auto 2xl:h-screen justify-between">
+      <div className="flex flex-col h-auto gap-10 items-center lg:flex-row xl:gap-[100px] xl:p-6 2xl:gap-[200px] 2xl:pl-[200px]">
+        <div className="flex items-start w-auto lg:w-auto">
+          <FontAwesomeIcon className="text-[43px] lg:text-[200px] xl:text-[400px]" icon={faXTwitter} />
 
         </div>
         <article className="flex flex-col  gap-4">
@@ -22,14 +56,19 @@ export default function Home() {
               <hr className="w-[158px] border-gray-300 bg-gray-700" />
 
             </div>
-            <button className="h-[40px] rounded-3xl bg-btnblue font-bold"><p>Crear cuenta</p></button>
+            <button className="h-[40px] rounded-3xl bg-btnblue font-bold" onClick={handleModalRegisterOpen}><p>Crear cuenta</p></button>
             <p className="text-gray-500 text-[11px]">Al registrarte, aceptas los <span className="text-blue-500">Términos de servicio</span> y la <span className="text-blue-500">Política de privacidad</span>, incluida la politica de <span className="text-blue-500">Uso de Cookies</span>.</p>
+            {
+              isModalRegisterOpen ? <Register onClose={handleModalRegisterClose} /> : null
+            }
           </div>
           <div className="flex flex-col gap-3 w-[310px]">
             <p className=" text-[17px] font-bold pt-8">¿Ya tienes una cuenta?</p>
-            <Link href="/enter" className="flex flex-col">
-              <button className="h-[40px] rounded-3xl border-1 border-gray-500 bg-transparent font-bold text-blue-400">Iniciar Sesion</button>
-            </Link>
+            <button onClick={handleModalLoginOpen} className="h-[40px] rounded-3xl border-1 border-gray-500 bg-transparent font-bold text-blue-400">Iniciar Sesion</button>
+            {
+              isModalLoginOpen ? <Login onClose={handleModalLoginClose} /> : null
+            }
+            
           </div>
         </article>
       </div>

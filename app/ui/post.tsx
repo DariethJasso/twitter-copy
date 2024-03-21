@@ -2,12 +2,13 @@
 import { faCertificate, faEllipsis, faRetweet,faChartSimple,faArrowUpFromBracket } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faComment, faHeart,faBookmark } from "@fortawesome/free-regular-svg-icons";
-import { Tweet, Users } from "@/app/context/GlobalProvider";
 import Link from "next/link";
+import { Users, Tweet } from "../type/type";
+import { Avatar, Tooltip } from "@nextui-org/react";
 
 export default function Post({tweet,user}:{tweet:Tweet,user:Users}) {
     const {timestamp, text, image, comments, retweets, likes,statistics} = tweet;
-    const { id,name, username, avatar, verified } = user;
+    const { id,name, username, avatar, verified,bio,followers,following } = user;
     return (
         <div className="border-1 border-gray-500/30">
             <div className="flex gap-2 p-1">
@@ -15,7 +16,35 @@ export default function Post({tweet,user}:{tweet:Tweet,user:Users}) {
                 <div className="flex flex-col w-full">
                     <div className="flex justify-between ">
                         <div className="flex gap-1 items-center">
-                            <Link href={`/enter/${id}/profile`} className=" text-[14px] text-white font-bold w-auto hover:underline">{name}</Link>
+                            <Tooltip 
+                                className="bg-black shadow-[0_35px_60px_-15px_rgba(255,255,255,0.3)]"
+                                placement="bottom"
+                                content={
+                                    <div className="flex flex-col gap-6 p-3 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-black w-[300px]">
+                                        <div className="flex justify-between">
+                                            <Link href={`/enter/${id}/profile`} className=" text-[20px] text-white font-bold w-auto hover:underline">
+                                                <Avatar src={avatar}  size="lg" color="primary" className="cursor-pointer"  />
+
+                                            </Link>
+                                            <button className="bg-white text-black rounded-full px-3 py-1 font-bold w-[100px]">Seguir</button>
+                                        </div>
+                                        <div>
+                                            <Link href={`/enter/${id}/profile`} className=" text-[20px] text-white font-bold w-auto hover:underline">{name}{verified ? <FontAwesomeIcon className="text-blue-500 w-4" icon={faCertificate} /> : ''}</Link>
+                                            <p className="text-gray-400 text-[20px]">{username}</p>
+                                        </div>
+                                        <div className="text-[20px]">
+                                            {bio}
+                                        </div>
+                                        <div className="flex justify-around text-[18px]">
+                                            <p className="text-gray-400"><span className="text-white font-bold">{followers}</span> seguidores</p>
+                                            <p className="text-gray-400"><span className="text-white font-bold">{following}</span> seguidos</p>
+                                        </div>
+                                    </div>
+                                }
+                                >
+                                <Link href={`/enter/${id}/profile`} className=" text-[14px] text-white font-bold w-auto hover:underline">{name}</Link>
+                                {}
+                            </Tooltip>
                             {
                                 verified ? <FontAwesomeIcon className="text-blue-500 w-4" icon={faCertificate} /> : ''
                             }
