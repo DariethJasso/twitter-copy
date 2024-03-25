@@ -242,6 +242,22 @@
       "tweets": "0",
       "location": "",
       "joined": "14 Marzo 2022"
+    },
+    {
+      "id": 29,
+      "name": "Erick",
+      "email": "ericktizz@gmail.com",
+      "password": "12345678",
+      "username": "@Erick",
+      "avatar": null,
+      "back": null,
+      "bio": "",
+      "verified": false,
+      "followers": "0",
+      "following": "0",
+      "tweets": "0",
+      "location": "",
+      "joined": "24 Mayo 2020"
     }
   ],
   "tweets": [
@@ -498,12 +514,11 @@
       "statistics": "",
       "categoria": "Trending"
     },
-    
     {
-      "id": 236,
+      "id": 621,
       "userId": "2",
-      "timestamp": "21/3/2024",
-      "text": "fff",
+      "timestamp": "22/3/2024",
+      "text": "hola",
       "image": null,
       "comments": 1,
       "likes": 0,
@@ -512,34 +527,10 @@
       "categoria": "Trending"
     },
     {
-      "id": 783,
-      "userId": "2",
-      "timestamp": "21/3/2024",
-      "text": "dfdfgdfgdfgdfgdf",
-      "image": null,
-      "comments": 1,
-      "likes": 0,
-      "retweets": 0,
-      "statistics": "",
-      "categoria": "Trending"
-    },
-    {
-      "id": 992,
-      "userId": "2",
-      "timestamp": "21/3/2024",
-      "text": "fdsfsdf",
-      "image": null,
-      "comments": 1,
-      "likes": 0,
-      "retweets": 0,
-      "statistics": "",
-      "categoria": "Trending"
-    },
-    {
-      "id": 435,
-      "userId": "2",
-      "timestamp": "21/3/2024",
-      "text": "aaaaaa",
+      "id": 434,
+      "userId": 29,
+      "timestamp": "22/3/2024",
+      "text": "123123",
       "image": null,
       "comments": 1,
       "likes": 0,
